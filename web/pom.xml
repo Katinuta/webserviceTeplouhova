@@ -1,0 +1,108 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>webserviceTeplouhova</artifactId>
+        <groupId>webserviceTeplouhova</groupId>
+        <version>1.1</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>web</artifactId>
+    <packaging>war</packaging>
+    <name>web</name>
+    <url>http://maven.apache.org</url>
+   <dependencies>
+       <dependency>
+           <groupId>webserviceTeplouhova</groupId>
+           <artifactId>entities</artifactId>
+           <version>1.1</version>
+       </dependency>
+
+
+       <dependency>
+           <groupId>webserviceTeplouhova</groupId>
+           <artifactId>service</artifactId>
+           <version>1.1</version>
+       </dependency>
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-context</artifactId>
+
+       </dependency>
+
+       <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-test</artifactId>
+
+       </dependency>
+       <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-core</artifactId>
+
+       </dependency>
+       <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-beans</artifactId>
+
+       </dependency>
+
+       <!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-tx</artifactId>
+
+       </dependency>
+
+       <!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-aop</artifactId>
+
+       </dependency>
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-orm</artifactId>
+       </dependency>
+       <!--<dependency>-->
+       <!--<groupId>org.apache.commons</groupId>-->
+       <!--<artifactId>commons-dbcp2</artifactId>-->
+       <!--</dependency>-->
+       <dependency>
+           <groupId>commons-dbcp</groupId>
+           <artifactId>commons-dbcp</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-context</artifactId>
+
+       </dependency>
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-beans</artifactId>
+
+       </dependency>
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-web</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-webmvc</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>org.jyaml</groupId>
+           <artifactId>jyaml</artifactId>
+       </dependency>
+
+       <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml -->
+       <dependency>
+           <groupId>com.fasterxml.jackson.dataformat</groupId>
+           <artifactId>jackson-dataformat-yaml</artifactId>
+       </dependency>
+
+   </dependencies>
+
+</project>
